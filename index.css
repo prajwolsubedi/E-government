@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #0093e9;
+  background-image: linear-gradient(10deg, #0094e98d 0%, #80d0c76e 100%);
+  font-family: "Roboto Slab", serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #ffffff00;
+  color: #e0dbdc;
+  margin-top: 0;
+}
+
+.loogo {
+  margin-top: 10px;
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #efebeb;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.nav-links a:hover {
+  color: #e0b048;
+}
+
+.nav-links .active {
+  color: #175942;
+  background-color: #c2d7ef;
+  border-radius: 10%;
+}
+.hero {
+  margin: 3vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.hero-text {
+  width: 30vw;
+}
+.hero-image > img {
+  height: 40vh;
+  width: 40vw;
+}
+.btn {
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  padding: 20px;
+  border: 3px solid purple;
+  border-radius: 10px;
+  background-color: #0093e9;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.btn:hover {
+  background-color: #01a6cb;
+}

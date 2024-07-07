@@ -1,0 +1,64 @@
+/* CSS styles for the About Us page */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Main section styles */
+  main {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .section-text {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .section-image {
+    max-width: 100%;
+    height: 300px;
+    margin-top: 20px;
+  }
+  
+  .security-image {
+    position: absolute;
+    max-width: 100%;
+    height: 300px;
+    top: 105%;
+  }
+  .service-list, .commitment-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .service-list li, .commitment-list li {
+    margin-bottom: 10px;
+  }
+  
